@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 95b38790573dee25352f33d8995626f3681fbef2eb60205c874f1e929bdeaa45
+-- hash: c33053b83f0be0f4ef4c74e0ca108e9dde00393dc0122e4fe83296387527aebd
 
 name:           Pente
 version:        0.1.0.0
@@ -28,6 +28,8 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Types
+      Types.Game
   other-modules:
       Paths_Pente
   hs-source-dirs:
